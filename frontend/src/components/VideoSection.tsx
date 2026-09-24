@@ -15,7 +15,7 @@ export default function VideoSection() {
       />
       <div className="absolute inset-0 bg-ink/50" />
 
-      <div className="relative z-10 flex flex-col items-center px-6 text-center text-sand">
+      <div className="relative z-10 flex flex-col items-center px-6 text-center text-sand">bugfix
         
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
