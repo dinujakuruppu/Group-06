@@ -6,13 +6,12 @@ import { Sun } from 'lucide-react'
 export default function FreeSunbeds() {
   return (
     <section id="sunbeds" className="relative flex min-h-[85vh] items-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1920&q=80')",
-        }}
-      />
+        <div
+      className="absolute inset-0 bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/images/free-sunbeds.jpeg')",
+      }}
+  />
       <div className="absolute inset-0 bg-ocean-deep/55" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center text-sand">
