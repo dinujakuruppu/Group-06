@@ -1,1 +1,10 @@
 backend
+
+# Ignore environment files
+.env
+.env.*
+!.env.example
+
+# Ignore Next.js generated files
+.next/
+*.tsbuildinfo
